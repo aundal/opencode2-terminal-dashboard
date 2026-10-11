@@ -1,0 +1,34 @@
+{
+  "name": "opencode2-terminal-dashboard",
+  "version": "2.0.0",
+  "description": "OpenCode V2 web dashboard that shows your live sessions as an isometric floor split into four status zones: running, waiting on you, failed, and idle.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aundal/opencode2-terminal-dashboard.git"
+  },
+  "homepage": "https://github.com/aundal/opencode2-terminal-dashboard#readme",
+  "bugs": {
+    "url": "https://github.com/aundal/opencode2-terminal-dashboard/issues"
+  },
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "dashboard",
+    "isometric",
+    "sessions",
+    "status"
+  ],
+  "engines": {
+    "opencode": ">=2.0.0"
+  }
+}
